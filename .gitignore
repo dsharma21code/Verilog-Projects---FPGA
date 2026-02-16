@@ -1,0 +1,31 @@
+.DS_Store
+.vscode/
+.idea/
+
+# sim outputs
+*.vcd
+*.fst
+*.log
+*.out
+*.vvp
+
+# verilator
+obj_dir/
+
+# modelsim/questa
+transcript
+vsim.wlf
+work/
+modelsim.ini
+
+# vivado
+*.jou
+*.str
+*.tmp
+*.cache/
+*.runs/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.sim/
+xsim.dir/
